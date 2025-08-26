@@ -4,15 +4,15 @@ class Vehicle:
 
 class Car(Vehicle):
     def move(self):
-        print("Driving 🚗")
+        print("Car is Driving 🚗")
 
 class Plane(Vehicle):
     def move(self):
-        print("Flying ✈️")
+        print(" Plane is Flying ✈️")
 
 class Boat(Vehicle):
     def move(self):
-        print("Sailing 🚤")
+        print("Boat is Sailing 🚤")
 
 # Example usage
 if __name__ == "__main__":
